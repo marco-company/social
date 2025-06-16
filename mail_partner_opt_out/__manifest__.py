@@ -4,7 +4,7 @@
     "name": "Mail Partner Opt Out",
     "summary": "Add the partner's email to the blackmailed list. "
     "Allow also removing or adding partners emails to the backlist in mass.",
-    "version": "16.0.1.0.0",
+    "version": "16.0.1.1.0",
     "development_status": "Beta",
     "category": "Social Network",
     "website": "https://github.com/OCA/social",

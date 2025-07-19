@@ -1,7 +1,6 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from datetime import date
-
+from odoo import fields
 from odoo.tests.common import TransactionCase
 
 
@@ -35,6 +34,7 @@ class TestMailActivityDoneMethods(TransactionCase):
         activity_type = self.env["mail.activity.type"].create(
             {"name": "test activity type"}
         )
+        today = fields.Date.context_today(self.employee)
         self.act1 = (
             self.env["mail.activity"]
             .with_user(self.employee)
@@ -45,7 +45,7 @@ class TestMailActivityDoneMethods(TransactionCase):
                     "res_model": "res.partner",
                     "res_model_id": self.env["ir.model"]._get("res.partner").id,
                     "user_id": self.employee.id,
-                    "date_deadline": date.today(),
+                    "date_deadline": today,
                 }
             )
         )
@@ -59,7 +59,7 @@ class TestMailActivityDoneMethods(TransactionCase):
                     "res_model": "res.partner",
                     "res_model_id": self.env["ir.model"]._get("res.partner").id,
                     "user_id": self.employee.id,
-                    "date_deadline": date.today(),
+                    "date_deadline": today,
                 }
             )
         )

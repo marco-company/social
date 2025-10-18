@@ -17,10 +17,12 @@ class MailThread(models.AbstractModel):
         model_domain = [("model", "=", self._name)]
         if operator not in expression.NEGATIVE_TERM_OPERATORS:
             model_domain += ["|"] * 4
+            model_domain += [("body", "ilike", value)]
+        else:
+            model_domain += [("body", operator, value)]
         model_domain += [
             ("record_name", operator, value),
             ("subject", operator, value),
-            ("body", operator, value),
             ("email_from", operator, value),
             ("reply_to", operator, value),
         ]
@@ -52,7 +54,9 @@ class MailThread(models.AbstractModel):
             doc = etree.XML(res["arch"])
             for node in doc.xpath("/search/field[last()]"):
                 # Add message_content in search view
-                elem = etree.Element("field", {"name": "message_content"})
+                elem = etree.Element(
+                    "field", {"name": "message_content", "operator": "%"}
+                )
                 node.addnext(elem)
                 res["arch"] = etree.tostring(doc)
         return res

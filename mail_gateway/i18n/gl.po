@@ -6,13 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-05-23 17:47+0000\n"
+"Last-Translator: Pablo Castelo <pablocv@gmx.es>\n"
 "Language-Team: none\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_compose_gateway_message__active_domain
@@ -22,12 +24,12 @@ msgstr ""
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_compose_gateway_message__partner_ids
 msgid "Additional Contacts"
-msgstr ""
+msgstr "Contactos adicionais"
 
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_channel__anonymous_name
 msgid "Anonymous Name"
-msgstr ""
+msgstr "Nome anónimo"
 
 #. module: mail_gateway
 #: model:ir.model,name:mail_gateway.model_mail_guest_manage
@@ -69,14 +71,14 @@ msgstr ""
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_gateway__can_set_webhook
 msgid "Can Set Webhook"
-msgstr ""
+msgstr "Pode establecer un webhook"
 
 #. module: mail_gateway
 #: model_terms:ir.ui.view,arch_db:mail_gateway.mail_guest_manage_form_view
 #: model_terms:ir.ui.view,arch_db:mail_gateway.mail_message_gateway_link_form_view
 #: model_terms:ir.ui.view,arch_db:mail_gateway.mail_message_gateway_send_form_view
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_compose_gateway_message__partner_cc_ids
@@ -86,7 +88,7 @@ msgstr ""
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_channel__channel_type
 msgid "Channel Type"
-msgstr ""
+msgstr "Tipo de canle"
 
 #. module: mail_gateway
 #: model:ir.model.fields,help:mail_gateway.field_mail_channel__channel_type
@@ -94,6 +96,9 @@ msgid ""
 "Chat is private and unique between 2 persons. Group is private among invited"
 " persons. Channel can be freely joined (depending on its configuration)."
 msgstr ""
+"O chat é privado e único entre 2 persoas. O grupo é privado entre as persoas "
+"convidadas. A canle pódense unir libremente (dependendo da súa configuración)"
+"."
 
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_mail__gateway_message_ids
@@ -106,7 +111,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_gateway__company_id
 #: model:ir.model.fields,field_description:mail_gateway.field_res_partner_gateway_channel__company_id
 msgid "Company"
-msgstr ""
+msgstr "Compañía"
 
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_compose_gateway_message__composition_mode
@@ -121,7 +126,7 @@ msgstr ""
 #. module: mail_gateway
 #: model:ir.model,name:mail_gateway.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_compose_gateway_message__body
@@ -131,7 +136,7 @@ msgstr ""
 #. module: mail_gateway
 #: model_terms:ir.ui.view,arch_db:mail_gateway.mail_guest_manage_form_view
 msgid "Create new partner"
-msgstr ""
+msgstr "Crear unha nova empresa"
 
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_compose_gateway_message__create_uid
@@ -141,7 +146,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_message_gateway_send__create_uid
 #: model:ir.model.fields,field_description:mail_gateway.field_res_partner_gateway_channel__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_compose_gateway_message__create_date
@@ -151,7 +156,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_message_gateway_send__create_date
 #: model:ir.model.fields,field_description:mail_gateway.field_res_partner_gateway_channel__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creado o"
 
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_compose_gateway_message__auto_delete
@@ -166,7 +171,7 @@ msgstr ""
 #. module: mail_gateway
 #: model:ir.model,name:mail_gateway.model_mail_channel
 msgid "Discussion Channel"
-msgstr ""
+msgstr "Canle de discusión"
 
 #. module: mail_gateway
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_compose_gateway_message__display_name
@@ -176,7 +181,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail_gateway.field_mail_message_gateway_send__display_name
 #: model:ir.model.fields,field_description:mail_gateway.field_res_partner_gateway_channel__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Mostrar Nome"
 
 #. module: mail_gateway
 #: model:ir.model.fields,help:mail_gateway.field_mail_compose_gateway_message__auto_delete_message
@@ -198,7 +203,7 @@ msgstr ""
 #. module: mail_gateway
 #: model:ir.model,name:mail_gateway.model_mail_thread
 msgid "Email Thread"
-msgstr ""
+msgstr "Fío de mensaxes"
 
 #. module: mail_gateway
 #: model:ir.model.fields,help:mail_gateway.field_mail_compose_gateway_message__email_from
@@ -213,6 +218,8 @@ msgid ""
 "Failure reason. This is usually the exception thrown by the email server, "
 "stored to ease the debugging of mailing issues."
 msgstr ""
+"Motivo do fallo. Esta adoita ser a excepción lanzada polo servidor de correo "
+"electrónico, almacenada para facilitar a depuración de problemas de correo."
 
 #. module: mail_gateway
 #. odoo-javascript

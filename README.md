@@ -1,4 +1,7 @@
 
+[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
+
+# social
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/social&target_branch=16.0)
 [![Pre-commit Status](https://github.com/OCA/social/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/OCA/social/actions/workflows/pre-commit.yml?query=branch%3A16.0)
 [![Build Status](https://github.com/OCA/social/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/OCA/social/actions/workflows/test.yml?query=branch%3A16.0)
@@ -7,9 +10,7 @@
 
 <!-- /!\ do not modify above this line -->
 
-# social
-
-{'TODO': 'add repo description.'}
+{'TODO': 'add repo description.'}Better integration of Odoo with mail and social media
 
 <!-- /!\ do not modify below this line -->
 
@@ -23,15 +24,15 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [base_search_mail_content](base_search_mail_content/) | 16.0.1.0.5 |  | Base Search Mail Content
 [base_user_signature](base_user_signature/) | 16.0.1.0.0 | <a href='https://github.com/imlopes'><img src='https://github.com/imlopes.png' width='32' height='32' style='border-radius:50%;' alt='imlopes'/></a> | Base User Signature
-[email_template_qweb](email_template_qweb/) | 16.0.1.0.0 |  | Use the QWeb templating mechanism for emails
+[email_template_qweb](email_template_qweb/) | 16.0.1.0.1 |  | Use the QWeb templating mechanism for emails
 [fetchmail_thread_default](fetchmail_thread_default/) | 16.0.1.1.0 |  | Post unkonwn messages to an existing thread
 [mail_activity_board](mail_activity_board/) | 16.0.1.2.0 |  | Add Activity Boards
-[mail_activity_done](mail_activity_done/) | 16.0.1.3.0 |  | Mail Activity Done
+[mail_activity_done](mail_activity_done/) | 16.0.1.4.0 |  | Mail Activity Done
 [mail_activity_filter_internal_user](mail_activity_filter_internal_user/) | 16.0.1.0.0 |  | Filter on internal user by default when assigning someone to an activity.
 [mail_activity_meeting_reminder](mail_activity_meeting_reminder/) | 16.0.1.0.0 |  | Allow to enforce reminders on meeting activity types
 [mail_activity_partner](mail_activity_partner/) | 16.0.1.0.0 |  | Add Partner to Activities
 [mail_activity_plan](mail_activity_plan/) | 16.0.1.0.1 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Mail activity plan
-[mail_activity_reminder](mail_activity_reminder/) | 16.0.1.0.0 |  | Reminder notifications about planned activities
+[mail_activity_reminder](mail_activity_reminder/) | 16.0.1.0.1 |  | Reminder notifications about planned activities
 [mail_activity_reply_creator](mail_activity_reply_creator/) | 16.0.1.0.0 |  | Assign new to its creator
 [mail_activity_team](mail_activity_team/) | 16.0.1.1.0 |  | Add Teams to Activities
 [mail_activity_unlink_log](mail_activity_unlink_log/) | 16.0.1.0.0 |  | Leave a message when an activity is unlinked
@@ -45,9 +46,9 @@ addon | version | maintainers | summary
 [mail_disable_follower_notification](mail_disable_follower_notification/) | 16.0.1.0.0 |  | Don't send emails by default when adding followers to records
 [mail_discuss_security](mail_discuss_security/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add a group to display 'Discuss' Application menu entry
 [mail_drop_target](mail_drop_target/) | 16.0.1.1.0 |  | Attach emails to Odoo by dragging them from your desktop
-[mail_gateway](mail_gateway/) | 16.0.1.3.1 |  | Set a gateway
+[mail_gateway](mail_gateway/) | 16.0.1.3.4 |  | Set a gateway
 [mail_gateway_telegram](mail_gateway_telegram/) | 16.0.1.1.0 |  | Set a gateway for telegram
-[mail_gateway_whatsapp](mail_gateway_whatsapp/) | 16.0.1.1.0 |  | Set a gateway for whatsapp
+[mail_gateway_whatsapp](mail_gateway_whatsapp/) | 16.0.1.1.2 |  | Set a gateway for whatsapp
 [mail_improved_tracking_value](mail_improved_tracking_value/) | 16.0.1.0.0 |  | Improves tracking changed values for certain type of fields.Adds a user-friendly view to consult them.
 [mail_inline_css](mail_inline_css/) | 16.0.0.1.0 |  | Convert style tags in inline style in your mails
 [mail_layout_force](mail_layout_force/) | 16.0.2.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Force a mail layout on selected email templates
@@ -71,12 +72,16 @@ addon | version | maintainers | summary
 [mail_tracking_mass_mailing](mail_tracking_mass_mailing/) | 16.0.1.0.0 |  | Improve mass mailing email tracking
 [mass_mailing_contact_active](mass_mailing_contact_active/) | 16.0.1.0.0 |  | Adds active feature on mailing list contact and subscriptions
 [mass_mailing_custom_unsubscribe](mass_mailing_custom_unsubscribe/) | 16.0.1.1.0 |  | Know and track (un)subscription reasons, GDPR compliant
+[mass_mailing_disable_tracking](mass_mailing_disable_tracking/) | 16.0.1.0.0 | <a href='https://github.com/huguesdk'><img src='https://github.com/huguesdk.png' width='32' height='32' style='border-radius:50%;' alt='huguesdk'/></a> | Allow to disable open and link click tracking in mass mailing messages
 [mass_mailing_event_registration_exclude](mass_mailing_event_registration_exclude/) | 16.0.1.0.0 |  | Link mass mailing with event for excluding recipients
 [mass_mailing_list_dynamic](mass_mailing_list_dynamic/) | 16.0.2.1.0 |  | Mass mailing lists that get autopopulated
-[mass_mailing_partner](mass_mailing_partner/) | 16.0.2.0.1 |  | Link partners with mass-mailing
+[mass_mailing_list_prune_blacklisted](mass_mailing_list_prune_blacklisted/) | 16.0.1.0.0 | <a href='https://github.com/SirPyTech'><img src='https://github.com/SirPyTech.png' width='32' height='32' style='border-radius:50%;' alt='SirPyTech'/></a> | Allow to remove blacklisted emails from mailing lists.
+[mass_mailing_partner](mass_mailing_partner/) | 16.0.2.0.2 |  | Link partners with mass-mailing
 [mass_mailing_resend](mass_mailing_resend/) | 16.0.1.0.0 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> | Resend mass mailings
 [mass_mailing_unique](mass_mailing_unique/) | 16.0.1.1.0 |  | Avoids duplicate mailing lists and contacts
 [outgoing_email_by_model](outgoing_email_by_model/) | 16.0.1.0.0 | <a href='https://github.com/mmequignon'><img src='https://github.com/mmequignon.png' width='32' height='32' style='border-radius:50%;' alt='mmequignon'/></a> | Outgoing Email by Model
+[res_company_gitlab_link](res_company_gitlab_link/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add gitlab url at company model
+[res_company_mastodon_link](res_company_mastodon_link/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add mastodon url at company model
 
 [//]: # (end addons)
 
